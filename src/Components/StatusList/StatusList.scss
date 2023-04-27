@@ -1,0 +1,34 @@
+.status-list-item {
+
+    display: flex;
+    align-items: center;
+    padding: 15px;
+
+    .avatar {
+
+        width: 60px;
+        // height: 60px;
+    }
+
+    .user-status {
+
+        margin-left: 10px;
+        position: relative;
+        width: 100%;
+
+        .name {
+
+            margin: 0;
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        .message {
+
+            color: #353535;
+        }
+        
+       
+    }
+
+}

@@ -1,0 +1,34 @@
+.call-logs{
+
+  display: flex;
+
+  .avatar {
+      width: 50px;
+      margin-left: 15px;
+      margin-top: 8px;
+  }
+  .user-detail{
+      margin-left: 10px;
+      position: relative;
+      width: 100%;
+  
+      .name{
+  
+          margin: 0;
+          font-size: 18px;
+          font-weight: 500;
+          margin-top: 14px;
+      }
+    }
+}
+.icon-phone {
+
+  color: #353535;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 22px;
+  margin-top: 10px;
+  font-size: 26px;
+  color: green;
+}

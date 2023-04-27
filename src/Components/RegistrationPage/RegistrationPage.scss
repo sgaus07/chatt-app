@@ -1,0 +1,51 @@
+.login-page {
+
+    height: 100%;
+    background-color: black;
+    position: relative;
+
+    .block {
+
+        width: 90%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        min-height: 300px;
+
+        .block-table {
+
+            width: 100%;
+
+            tbody {
+
+                tr {
+
+                    td {
+
+                        width: 50%;
+                        text-align: center;
+                        background-color: #90b4e9;
+                        padding: 10px 0px;
+                        color: white;
+                        font-size: 22px;
+                        font-weight: 600;
+                        user-select: none;
+                        cursor: pointer;
+
+                        &.active {
+
+                            background-color: blue;
+                        }
+                    }
+                }
+            }
+        }
+
+        .login-block {
+            
+            padding: 40px;
+        }
+    }
+}

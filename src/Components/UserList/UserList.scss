@@ -1,0 +1,106 @@
+.user-list-page {
+
+    padding-top: 60px;
+}
+
+.user-list-item {
+
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    position: relative;
+
+    .user-detail {
+
+        margin-left: 10px;
+        position: relative;
+        width: 100%;
+    }
+
+    .name {
+
+        margin: 0;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .avatar {
+
+        width: 60px;
+        height: 60px;
+    }
+}
+
+.back-icon {
+
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    font-size: 25px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+
+.user-block {
+    font-size: 24px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+
+
+    .user-name {
+        margin-left: 25px;
+        font-size: 25px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 110px;
+        white-space: nowrap;
+    }
+}
+
+.search-block {
+    background: white;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 0;
+    right: 0;
+    transition: all .2s;
+    display: flex;
+    align-items: center;
+
+    &.active {
+
+        width: 100%;
+    }
+
+    .back-arrow {
+
+        background: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+
+        .icon {
+
+            font-size: 25px;
+        }
+    }
+
+    input {
+
+        width: 100%;
+        border: none;
+        padding: 14px 22px;
+        font-size: 22px;
+        outline: none;
+    }
+}

@@ -1,0 +1,22 @@
+.chat-list-page {
+
+    height: 90%;
+    position: relative;
+
+    .chat-icon {
+
+        height: 50px;
+        width: 50px;
+        background-color: var(--color-primary);
+        font-size: 25px;
+        border-radius: 50%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        bottom: 0;
+        right: 10px;
+        position: fixed;
+    }
+}
